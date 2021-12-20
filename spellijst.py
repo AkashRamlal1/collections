@@ -1,6 +1,8 @@
-spellijst = ['monopoli','yahtzee','bridge','poker','pestten','mens erger je niet','cluedo']
+import random
 
-for x in range(0, 7):
-        x + 1
-        
-        print(spellijst[x])
+LIJSTT = ['Monopoly', 'Yathzee', 'Bridge', 'Poker', 'Pesten', 'Mens erger je niet' ,'Cluedo']
+n = random.randint(1,10)
+for x in range(-1, 6):
+    x += 1
+    print(LIJSTT[x],n)
+    
